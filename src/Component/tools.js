@@ -12,8 +12,9 @@ import Marker from '@editorjs/marker'
 import CheckList from '@editorjs/checklist'
 import Delimiter from '@editorjs/delimiter'
 import InlineCode from '@editorjs/inline-code'
-import SimpleImage from '@editorjs/simple-image'
-import simpleImage from "./simple-image";
+// import EditSimpleImage from '@editorjs/simple-image'
+import simpleImage from "./tool/simpleimage/index"
+import timeline from "./tool/timeline";
 
 export const EDITOR_JS_TOOLS = {
     embed: Embed,
@@ -23,13 +24,13 @@ export const EDITOR_JS_TOOLS = {
     warning: Warning,
     code: Code,
     linkTool: LinkTool,
-    image: simpleImage,
-    // image: Image,
+    image: Image,
+    Timeline: timeline,
     raw: Raw,
     header: Header,
     quote: Quote,
     checklist: CheckList,
     delimiter: Delimiter,
     inlineCode: InlineCode,
-    simpleImage: SimpleImage,
+    simpleImage: simpleImage,
 }
