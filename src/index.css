@@ -1,0 +1,14 @@
+.ce-block__content, .ce-toolbar__content {
+    max-width: calc(100% - 80px) !important;
+}
+
+.cdx-block {
+    max-width: 100% !important;
+}
+
+.app {
+    border-width:3px;
+    border-style:dashed;
+    border-color:#FFAC55;
+    padding:5px;
+}
