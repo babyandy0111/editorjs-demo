@@ -50,9 +50,9 @@ const Editor = (props) => {
     const onSave = () => {
         editor.save().then((outputData) => {
             console.log('Article data: ', outputData)
-            const html = edjsHTML().parse(outputData).join('');
-            console.log(html);
-            console.log(formData);
+            // const html = edjsHTML().parse(outputData).join('');
+            // console.log(html);
+            // console.log(formData);
         }).catch((error) => {
             console.log('Saving failed: ', error);
         });
